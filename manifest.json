@@ -1,15 +1,87 @@
 {
     "commerceSuiteVersion": "1905",
-    "useCloudExtensionPack": true,    
+    "useCloudExtensionPack": true,
     "extensions": [
+        "kiwi",
+        "tiger",
+        "yacceleratorstorefront",
+        "backoffice",
+        "cmsbackoffice",
+        "platformbackoffice",
         "modeltacceleratorservices",
         "electronicsstore",
-        "yacceleratorstorefront",
-        "backoffice"
+        "yacceleratorfulfilmentprocess",
+        "albinoaddon",
+        "azurecloudhotfolder",
+        "ycommercewebservices",
+        "cmswebservices",
+        "permissionswebservices"
     ],
-         "aspects": [
+
+    "storefrontAddons" : [
+        {
+            "addon": "albinoaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        }
+        {
+         "addon": "smarteditaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+         },
+
+        {
+         "addon": "personalizationaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+         },
+    ],
+    "properties": [
+        {
+            "key": "lang.packs",
+            "value": "de,en,es,es_CO,fr,it,ja,ko,pt,ru,zh,zh_TW,hi,id,cs,cy"
+        },
+        {
+            "key": "test.property.1",
+            "value": "test-property-1-value-prod",
+            "persona": "production"
+        },
+        {
+            "key": "test.property.1",
+            "value": "test-property-1-value-dev",
+            "persona": "development"
+        },
+        {
+            "key": "test.property.1",
+            "value": "test-property-1-value"
+        },
+        {
+            "key": "test.property.2",
+            "value": "test-property-2-value"
+        },
+        {
+            "key": "auditing.enabled",
+            "value": "false"
+        },
+        {
+            "key": "default.session.timeout",
+            "value": "360"
+        }
+    ],
+    "aspects": [
         {
             "name": "backoffice",
+            "properties": [
+                {
+                    "key": "test.property.1",
+                    "value": "test.property-1-value-prod-backoffice",
+                    "persona": "production"
+                },
+                {
+                    "key": "test.property.2",
+                    "value": "test.property-2-value-backoffice"
+                }
+            ],
             "webapps": [
                 {
                     "name": "hac",
@@ -26,7 +98,125 @@
             ]
         },
         {
+            "name": "api",
+            "properties": [
+                    {
+                        "key":"xss.filter.header.X-Frame-Options",
+                        "value":""
+                    }
+                    {
+                     "key":"storefrontContextRoot",
+                     "value":"yacceleratorstorefront"
+                     },
+            ],
+            "webapps": [
+                {
+                    "name": "ycommercewebservices",
+                    "contextPath": "/rest"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "cmswebservices",
+                    "contextPath": "/cmswebservices"
+                },
+                {
+                    "name": "permissionswebservices",
+                    "contextPath": "/permissionswebservices"
+                }
+                {
+                 "name": "yacceleratorstorefront",
+                 "contextPath": "/yacceleratorstorefront"
+                 },
+                {
+                 "name": "smartedit",
+                 "contextPath": "/smartedit"
+                 },
+
+                 {
+                 "name": "cmssmartedit",
+                 "contextPath": "/cmssmartedit"
+                 },
+
+                 {
+                 "name": "smarteditwebservices",
+                 "contextPath": "/smarteditwebservices"
+                 },
+
+                 {
+                 "name": "cmssmarteditwebservices",
+                 "contextPath": "/cmssmarteditwebservices"
+                 },
+                {
+                 "name": "oauth2",
+                 "contextPath": "/authorizationserver"
+                 },
+                 {
+                 "name": "cmswebservices",
+                 "contextPath": "/cmswebservices"
+                 },
+
+                 {
+                 "name": "permissionswebservices",
+                 "contextPath": "/permissionswebservices"
+                 },
+
+                 {
+                 "name": "previewwebservices",
+                 "contextPath": "/previewwebservices"
+                 },
+                {
+                 "name": "mediaweb",
+                 "contextPath": "/medias"
+                 },
+
+                 {
+                  "name": "personalizationsmartedit",
+                  "contextPath": "/personalizationsmartedit"
+                  },
+
+                  {
+                  "name": "personalizationpromotionssmartedit",
+                  "contextPath": "/personalizationpromotionssmartedit"
+                  },
+
+                  {
+                  "name": "personalizationwebservices",
+                  "contextPath": "/personalizationwebservices"
+                  },
+
+                  {
+                  "name": "personalizationsearchsmartedit",
+                  "contextPath": "/personalizationsearchsmartedit"
+                  },
+                  ]
+        },
+        {
             "name": "accstorefront",
+            "properties": [
+                {
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.save",
+                    "value":"async"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.path",
+                    "value": "/"
+                },
+                {
+                    "key":"storefrontContextRoot",
+                    "value":""
+                }
+            ],
             "webapps": [
                 {
                     "name": "mediaweb",
@@ -34,7 +224,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/yacceleratorstorefront"
+                    "contextPath": ""
                 },
                 {
                     "name": "acceleratorservices",
@@ -44,7 +234,12 @@
         },
         {
             "name": "backgroundProcessing",
-            "properties": [],
+            "properties": [
+                {
+                    "key": "cluster.node.groups",
+                    "value": "integration,yHotfolderCandidate"
+                }
+            ],
             "webapps": [
                 {
                     "name": "hac",
@@ -56,5 +251,19 @@
                 }
             ]
         }
-    ]
+    ],
+    "tests": {
+        "extensions": [
+            "kiwi",
+            "tiger",
+            "albinoaddon"
+        ],
+        "annotations": [
+            "UnitTests",
+            "IntegrationTests"
+        ],
+        "packages": [
+            "com.acme.*"
+        ]
+    }
 }
