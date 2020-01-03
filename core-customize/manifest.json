@@ -5,29 +5,7 @@
         "modeltacceleratorservices",
         "electronicsstore",
         "yacceleratorstorefront",
-        "backoffice",
-        "smartedit",
-        "cmssmartedit",
-        "smarteditwebservices",
-        "cmssmarteditwebservices",
-        "oauth2",
-        "cmswebservices",
-        "permissionswebservices",
-        "previewwebservices",
-        "mediaweb"
-    ],
-    "storefrontAddons" : [
-        {
-         "addon": "smarteditaddon",
-         "storefront": "smcustomstorefront",
-         "template": "yacceleratorstorefront"
-         },
-
-        {
-         "addon": "personalizationaddon",
-         "storefront": "smcustomstorefront",
-         "template": "yacceleratorstorefront"
-         },
+        "backoffice"
     ],
          "aspects": [
         {
@@ -46,73 +24,6 @@
                     "contextPath": "/backoffice"
                 }
             ]
-        },
-        {
-            "name": "api",
-            "properties": [
-                    {
-                     "key":"storefrontContextRoot",
-                     "value":"smcustomstorefront"
-                     },
-            ],
-            "webapps": [
-                    {
-                     "name": "smcustomstorefront",
-                     "contextPath": "/smcustomstorefront"
-                    },
-                    {
-                     "name": "smartedit",
-                     "contextPath": "/smartedit"
-                    },
-                    {
-                     "name": "cmssmartedit",
-                     "contextPath": "/cmssmartedit"
-                    },
-                    {
-                     "name": "smarteditwebservices",
-                     "contextPath": "/smarteditwebservices"
-                    },
-                    {
-                     "name": "cmssmarteditwebservices",
-                     "contextPath": "/cmssmarteditwebservices"
-                    },
-                    {
-                     "name": "oauth2",
-                     "contextPath": "/authorizationserver"
-                    },
-                    {
-                     "name": "cmswebservices",
-                     "contextPath": "/cmswebservices"
-                    },
-                    {
-                     "name": "permissionswebservices",
-                     "contextPath": "/permissionswebservices"
-                    },
-                    {
-                     "name": "previewwebservices",
-                     "contextPath": "/previewwebservices"
-                    },
-                    {
-                     "name": "mediaweb",
-                     "contextPath": "/medias"
-                    },
-                    {
-                     "name": "personalizationsmartedit",
-                     "contextPath": "/personalizationsmartedit"
-                    },
-                    {
-                     "name": "personalizationpromotionssmartedit",
-                     "contextPath": "/personalizationpromotionssmartedit"
-                    },
-                    {
-                    "name": "personalizationwebservices",
-                    "contextPath": "/personalizationwebservices"
-                    },
-                    {
-                    "name": "personalizationsearchsmartedit",
-                    "contextPath": "/personalizationsearchsmartedit"
-                     },
-                  ]
         },
         {
             "name": "accstorefront",
