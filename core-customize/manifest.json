@@ -26,13 +26,13 @@
         }
         {
          "addon": "smarteditaddon",
-         "storefront": "<yourcustomstorefront>",
+         "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
          },
 
         {
          "addon": "personalizationaddon",
-         "storefront": "<yourcustomstorefront>",
+         "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
          },
     ],
@@ -106,7 +106,7 @@
                     }
                     {
                      "key":"storefrontContextRoot",
-                     "value":"<yourcustomstorefront>"
+                     "value":"yacceleratorstorefront"
                      },
             ],
             "webapps": [
@@ -127,8 +127,8 @@
                     "contextPath": "/permissionswebservices"
                 }
                 {
-                 "name": "<yourcustomstorefront>",
-                 "contextPath": "/<yourcustomstorefront>"
+                 "name": "yacceleratorstorefront",
+                 "contextPath": "/yacceleratorstorefront"
                  },
                 {
                  "name": "smartedit",
