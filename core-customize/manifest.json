@@ -57,7 +57,7 @@
       "sapcpiorderexchangeoms",
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
-      "sapcpiproductexchange”,
+      "sapcpiproductexchange",
       "smartedit",
       "cmssmartedit",
       "smarteditwebservices",
@@ -193,12 +193,12 @@
       },
       {
          "addon": "smarteditaddon",
-         "storefront": “yacceleratorstorefront”,
+         "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
       {
          "addon": "personalizationaddon",
-         "storefront": “yacceleratorstorefront”,
+         "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
    ],
@@ -284,7 +284,7 @@
          "properties":[
             {
                "key":"storefrontContextRoot",
-               "value”:””
+               "value":""
             },
 
          ],
