@@ -1,5 +1,6 @@
 {
    "commerceSuiteVersion":"1905",
+   "useCloudExtensionPack": true,
    "extensions":[
       "ordermanagementaddon",
       "orderselfserviceaddon",
@@ -58,6 +59,15 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange"
+      "smartedit",
+      "cmssmartedit",
+      "smarteditwebservices",
+      "cmssmarteditwebservices",
+      "oauth2",
+      "cmswebservices",
+      "permissionswebservices",
+      "previewwebservices",
+      "mediaweb"
    ],
    "properties":[
       {
@@ -182,6 +192,16 @@
          "storefront":"yacceleratorstorefront",
          "template":"yacceleratorstorefront"
       }
+      {
+         "addon": "smarteditaddon",
+         "storefront": "<yourcustomstorefront>",
+         "template": "yacceleratorstorefront"
+      },
+      {
+         "addon": "personalizationaddon",
+         "storefront": "<yourcustomstorefront>",
+         "template": "yacceleratorstorefront"
+      },
    ],
    "aspects":[
       {
@@ -263,18 +283,82 @@
       {
          "name":"api",
          "properties":[
+            {
+               "key":"storefrontContextRoot",
+               "value":"<yourcustomstorefront>"
+            },
 
          ],
          "webapps":[
             {
-               "name":"mediaweb",
-               "contextPath":"/medias"
-            },
-            {
                "name":"adaptivesearchwebservices",
                "contextPath":"/adaptivesearchwebservices"
             }
-            
+            {
+
+               "name": "<yourcustomstorefront>",
+               "contextPath": "/<yourcustomstorefront>"
+            },
+            {
+               "name": "smartedit",
+               "contextPath": "/smartedit"
+            },
+
+            {
+               "name": "cmssmartedit",
+               "contextPath": "/cmssmartedit"
+            },
+
+            {
+               "name": "smarteditwebservices",
+               "contextPath": "/smarteditwebservices"
+            },
+
+            {
+               "name": "cmssmarteditwebservices",
+               "contextPath": "/cmssmarteditwebservices"
+            },
+            {
+               "name": "oauth2",
+               "contextPath": "/authorizationserver"
+            },
+            {
+               "name": "cmswebservices",
+               "contextPath": "/cmswebservices"
+            },
+
+            {
+               "name": "permissionswebservices",
+               "contextPath": "/permissionswebservices"
+            },
+
+            {
+               "name": "previewwebservices",
+               "contextPath": "/previewwebservices"
+            },
+            {
+               "name": "mediaweb",
+               "contextPath": "/medias"
+            },
+	    {
+               "name": "personalizationsmartedit",
+               "contextPath": "/personalizationsmartedit"
+             },
+
+             {
+                "name": "personalizationpromotionssmartedit",
+                "contextPath": "/personalizationpromotionssmartedit"
+              },
+
+             {
+                "name": "personalizationwebservices",
+                "contextPath": "/personalizationwebservices"
+              },
+
+              {
+                 "name": "personalizationsearchsmartedit",
+                 "contextPath": "/personalizationsearchsmartedit"
+              },
          ]
       }
    ]
