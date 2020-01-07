@@ -255,7 +255,8 @@
                     "key": "test.property.2",
                     "value": "test.property-2-value-backoffice"
                 }
-      ],
+           ]
+	},
       {
          "name":"backoffice",
          "webapps":[
