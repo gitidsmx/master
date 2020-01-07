@@ -304,7 +304,10 @@
                  "name": "mediaweb",
                  "contextPath": "/medias"
                  },
-
+                {
+                 "name":"adaptivesearchwebservices",
+                 "contextPath":"/adaptivesearchwebservices"
+                },
                  {
                   "name": "personalizationsmartedit",
                   "contextPath": "/personalizationsmartedit"
@@ -379,23 +382,6 @@
                "name":"mediaweb",
                "contextPath":"/medias"
             }
-         ]
-      },
-      {
-         "name":"api",
-         "properties":[
-
-         ],
-         "webapps":[
-            {
-               "name":"mediaweb",
-               "contextPath":"/medias"
-            },
-            {
-               "name":"adaptivesearchwebservices",
-               "contextPath":"/adaptivesearchwebservices"
-            }
-            
          ]
       }
    ]
