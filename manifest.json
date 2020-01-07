@@ -1,8 +1,6 @@
 {
    "commerceSuiteVersion":"1905",
    "extensions":[
-       "kiwi",
-       "tiger",
       "ordermanagementaddon",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
@@ -133,11 +131,6 @@
       }
    ],
    "storefrontAddons":[
-       {
-          "addon": "albinoaddon",
-          "storefront": "yacceleratorstorefront",
-          "template": "yacceleratorstorefront"
-       }
       {
          "addon":"b2bacceleratoraddon",
          "storefront":"yacceleratorstorefront",
@@ -200,63 +193,16 @@
       },
       {
          "addon": "smarteditaddon",
-         "storefront": "<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>",
+         "storefront": "accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com/yacceleratorstorefront?site=powertools",
          "template": "yacceleratorstorefront"
       },
       {
          "addon": "personalizationaddon",
-         "storefront": "<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>",
+         "storefront": "accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com/yacceleratorstorefront?site=powertools",
          "template": "yacceleratorstorefront"
       },
    ],
-
-    "properties": [
-        {
-            "key": "lang.packs",
-            "value": "de,en,es,es_CO,fr,it,ja,ko,pt,ru,zh,zh_TW,hi,id,cs,cy"
-        },
-        {
-            "key": "test.property.1",
-            "value": "test-property-1-value-prod",
-            "persona": "production"
-        },
-        {
-            "key": "test.property.1",
-            "value": "test-property-1-value-dev",
-            "persona": "development"
-        },
-        {
-            "key": "test.property.1",
-            "value": "test-property-1-value"
-        },
-        {
-            "key": "test.property.2",
-            "value": "test-property-2-value"
-        },
-        {
-            "key": "auditing.enabled",
-            "value": "false"
-        },
-        {
-            "key": "default.session.timeout",
-            "value": "360"
-        }
-    ],
    "aspects":[
-        {
-            "name": "backoffice",
-            "properties": [
-                {
-                    "key": "test.property.1",
-                    "value": "test.property-1-value-prod-backoffice",
-                    "persona": "production"
-                },
-                {
-                    "key": "test.property.2",
-                    "value": "test.property-2-value-backoffice"
-                }
-           ]
-	},
       {
          "name":"backoffice",
          "webapps":[
@@ -338,7 +284,7 @@
          "properties":[
             {
                "key":"storefrontContextRoot",
-               "value":"<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>"
+               "value":"accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com/yacceleratorstorefront?site=powertools"
             },
 
          ],
@@ -349,8 +295,8 @@
             }
             {
 
-               "name": "<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>",
-               "contextPath": "/<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>"
+               "name": "accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com/yacceleratorstorefront?site=powertools",
+               "contextPath": "/yacceleratorstorefront?site=powertools"
             },
             {
                "name": "smartedit",
@@ -415,19 +361,4 @@
          ]
       }
    ]
-}
-"tests": {
-        "extensions": [
-            "kiwi",
-            "tiger",
-            "albinoaddon"
-        ],
-        "annotations": [
-            "UnitTests",
-            "IntegrationTests"
-        ],
-        "packages": [
-            "com.acme.*"
-        ]
-    }
 }
