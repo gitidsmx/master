@@ -1,6 +1,8 @@
 {
    "commerceSuiteVersion":"1905",
    "extensions":[
+       "kiwi",
+       "tiger",
       "ordermanagementaddon",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
@@ -57,7 +59,7 @@
       "sapcpiorderexchangeoms",
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
-      "sapcpiproductexchange",
+      "sapcpiproductexchange”,
       "smartedit",
       "cmssmartedit",
       "smarteditwebservices",
@@ -131,6 +133,11 @@
       }
    ],
    "storefrontAddons":[
+       {
+          "addon": "albinoaddon",
+          "storefront": "yacceleratorstorefront",
+          "template": "yacceleratorstorefront"
+       }
       {
          "addon":"b2bacceleratoraddon",
          "storefront":"yacceleratorstorefront",
@@ -193,16 +200,62 @@
       },
       {
          "addon": "smarteditaddon",
-         "storefront": "yacceleratorstorefront",
+         "storefront": “<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>”,
          "template": "yacceleratorstorefront"
       },
       {
          "addon": "personalizationaddon",
-         "storefront": "yacceleratorstorefront",
+         "storefront": “<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>”,
          "template": "yacceleratorstorefront"
       },
    ],
+
+    "properties": [
+        {
+            "key": "lang.packs",
+            "value": "de,en,es,es_CO,fr,it,ja,ko,pt,ru,zh,zh_TW,hi,id,cs,cy"
+        },
+        {
+            "key": "test.property.1",
+            "value": "test-property-1-value-prod",
+            "persona": "production"
+        },
+        {
+            "key": "test.property.1",
+            "value": "test-property-1-value-dev",
+            "persona": "development"
+        },
+        {
+            "key": "test.property.1",
+            "value": "test-property-1-value"
+        },
+        {
+            "key": "test.property.2",
+            "value": "test-property-2-value"
+        },
+        {
+            "key": "auditing.enabled",
+            "value": "false"
+        },
+        {
+            "key": "default.session.timeout",
+            "value": "360"
+        }
+    ],
    "aspects":[
+        {
+            "name": "backoffice",
+            "properties": [
+                {
+                    "key": "test.property.1",
+                    "value": "test.property-1-value-prod-backoffice",
+                    "persona": "production"
+                },
+                {
+                    "key": "test.property.2",
+                    "value": "test.property-2-value-backoffice"
+                }
+      }
       {
          "name":"backoffice",
          "webapps":[
@@ -284,7 +337,7 @@
          "properties":[
             {
                "key":"storefrontContextRoot",
-               "value":""
+               "value”:”<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>”
             },
 
          ],
@@ -293,7 +346,11 @@
                "name":"adaptivesearchwebservices",
                "contextPath":"/adaptivesearchwebservices"
             }
+            {
 
+               "name": “<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>”,
+               "contextPath": “/<accstorefront.cs14e-lalaadmin1-d1-public.model-t.cc.commerce.ondemand.com>”
+            },
             {
                "name": "smartedit",
                "contextPath": "/smartedit"
@@ -332,8 +389,8 @@
                "contextPath": "/previewwebservices"
             },
             {
-               "name": "mediaweb",
-               "contextPath": "/medias"
+               “name”: “mediaweb”,
+               “contextPath”: “/medias”
             },
 	    {
                "name": "personalizationsmartedit",
@@ -357,4 +414,19 @@
          ]
       }
    ]
+}
+"tests": {
+        "extensions": [
+            "kiwi",
+            "tiger",
+            "albinoaddon"
+        ],
+        "annotations": [
+            "UnitTests",
+            "IntegrationTests"
+        ],
+        "packages": [
+            "com.acme.*"
+        ]
+    }
 }
