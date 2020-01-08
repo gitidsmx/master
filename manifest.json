@@ -58,7 +58,6 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
-      "smartedit",
       "smarteditaddon",
       "cmssmartedit",
       "smarteditwebservices",
@@ -299,13 +298,12 @@
       {
          "name":"api",
          "properties":[
-            {
-               "key":"storefrontContextRoot",
-               "value":"yacceleratorstorefront"
-            },
+{
+ "key":"storefrontContextRoot",
+ "value":""
+ },
          ],
          "webapps":[
-{
  "name": "yacceleratorstorefront",
  "contextPath": "/yacceleratorstorefront"
  },
@@ -345,25 +343,6 @@
  {
  "name": "previewwebservices",
  "contextPath": "/previewwebservices"
- },
-{
- "name": "personalizationsmartedit",
- "contextPath": "/personalizationsmartedit"
- },
-
- {
- "name": "personalizationpromotionssmartedit",
- "contextPath": "/personalizationpromotionssmartedit"
- },
-
-{
- "name": "personalizationwebservices",
- "contextPath": "/personalizationwebservices"
- },
-
-{
- "name": "personalizationsearchsmartedit",
- "contextPath": "/personalizationsearchsmartedit"
  },
             {
                "name":"mediaweb",
