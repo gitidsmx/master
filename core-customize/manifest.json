@@ -190,7 +190,12 @@
          "addon":"sapcoreaddon",
          "storefront":"yacceleratorstorefront",
          "template":"yacceleratorstorefront"
-      }
+      },
+      {
+         "addon": "smarteditaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+       }
    ],
    "aspects":[
       {
