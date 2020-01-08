@@ -302,7 +302,7 @@
                      "key":"storefrontContextRoot",
                      "value":""
                      },
-            ],
+            ]
         "webapps":[
  "name": "yacceleratorstorefront",
  "contextPath": "/yacceleratorstorefront"
