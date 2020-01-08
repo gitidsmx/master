@@ -297,16 +297,10 @@
       },
       {
          "name":"api",
-            "properties": [
-                    {
-                     "key":"storefrontContextRoot",
-                     "value":""
-                     },
-            ]
-        "webapps":[
- "name": "yacceleratorstorefront",
- "contextPath": "/yacceleratorstorefront"
- },
+         "properties":[
+
+         ],
+         "webapps":[
 {
  "name": "smartedit",
  "contextPath": "/smartedit"
