@@ -138,7 +138,7 @@
       },
       {
          "addon": "personalizationaddon",
-         "storefront": "yacceleratorstorefront",
+         "storefront": “yacceleratorstorefront”,
          "template": "yacceleratorstorefront"
       },
       {
@@ -276,42 +276,6 @@
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
-            },
-            {
-               "name":"adaptivesearchwebservices",
-               "contextPath":"/adaptivesearchwebservices"
-            },
-            {
-               "name": "oauth2",
-               "contextPath": "/authorizationserver"
-            },
-            {
-               "name": "cmswebservices",
-               "contextPath": "/cmswebservices"
-            },
-            {
-               "name": "permissionswebservices",
-               "contextPath": "/permissionswebservices"
-            },
-            {
-               "name": "previewwebservices",
-               "contextPath": "/previewwebservices"
-            },
-	    {
-               "name": "personalizationsmartedit",
-               "contextPath": "/personalizationsmartedit"
-            },
-            {
-               "name": "personalizationpromotionssmartedit",
-               "contextPath": "/personalizationpromotionssmartedit"
-            },
-            {
-               "name": "personalizationwebservices",
-               "contextPath": "/personalizationwebservices"
-            },
-            {
-               "name": "personalizationsearchsmartedit",
-               "contextPath": "/personalizationsearchsmartedit"
             },
          ]
       },
