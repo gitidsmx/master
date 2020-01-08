@@ -279,7 +279,7 @@
          ],
          "webapps":[
            {
-               "name": "yacceleratorstorefront,
+               "name": "yacceleratorstorefront",
                "contextPath": "/yacceleratorstorefront
             },
            {
