@@ -35,13 +35,13 @@
         }
         {
          "addon": "smarteditaddon",
-         "storefront": "Storefront",
+         "storefront": "smartpoint",
          "template": "yacceleratorstorefront"
          },
 
         {
          "addon": "personalizationaddon",
-         "storefront": "Storefront",
+         "storefront": "smartpoint",
          "template": "yacceleratorstorefront"
          },
     ],
@@ -115,7 +115,7 @@
                     }
                     {
                      "key":"storefrontContextRoot",
-                     "value":"Storefront"
+                     "value":"smartpoint"
                      },
             ],
             "webapps": [
@@ -136,8 +136,8 @@
                     "contextPath": "/permissionswebservices"
                 }
                 {
-                 "name": "Storefront",
-                 "contextPath": "/Storefront"
+                 "name": "smartpoint",
+                 "contextPath": "/smartpoint"
                  },
                 {
                  "name": "smartedit",
