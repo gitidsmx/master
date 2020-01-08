@@ -190,12 +190,7 @@
          "addon":"sapcoreaddon",
          "storefront":"yacceleratorstorefront",
          "template":"yacceleratorstorefront"
-      },
-      {
-         "addon": "smarteditaddon",
-         "storefront": "yacceleratorstorefront",
-         "template": "yacceleratorstorefront"
-       }
+      }
    ],
    "aspects":[
       {
@@ -277,7 +272,10 @@
       {
          "name":"api",
          "properties":[
-
+            {
+               "key":"storefrontContextRoot",
+               "value":"yacceleratorstorefront"
+            },
          ],
          "webapps":[
             {
