@@ -58,7 +58,7 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
-      "smartedit",
+      "smarteditaddon",
       "cmssmartedit",
       "smarteditwebservices",
       "cmssmarteditwebservices",
@@ -131,6 +131,11 @@
       }
    ],
    "storefrontAddons":[
+      {
+         "addon": "smarteditaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+      },
       {
          "addon":"b2bacceleratoraddon",
          "storefront":"yacceleratorstorefront",
@@ -248,6 +253,22 @@
                "contextPath":""
             },
             {
+               "name": "smartedit",
+               "contextPath": "/smartedit"
+            },
+            {
+               "name": "cmssmartedit",
+	       "contextPath": "/cmssmartedit"
+            },
+            {
+               "name": "cmssmarteditwebservices",
+	       "contextPath": "/cmssmarteditwebservices"
+            },
+            {
+               "name": "smarteditwebservices",
+	       "contextPath": "/smarteditwebservices"
+            },
+            {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
             }
@@ -272,48 +293,9 @@
       {
          "name":"api",
          "properties":[
-            {
-               "key":"storefrontContextRoot",
-               "value":"yacceleratorstorefront"
-            },
+
          ],
          "webapps":[
-           {
-               "name": "yacceleratorstorefront",
-               "contextPath": "/yacceleratorstorefront"
-            },
-           {
-               "name": "smartedit",
-               "contextPath": "/smartedit"
-            },
-            {
-               "name": "cmssmartedit",
-               "contextPath": "/cmssmartedit"
-            },
-            {
-               "name": "smarteditwebservices",
-               "contextPath": "/smarteditwebservices"
-            },
-            {
-               "name": "cmssmarteditwebservices",
-               "contextPath": "/cmssmarteditwebservices"
-            },
-           {
-               "name": "oauth2",
-               "contextPath": "/authorizationserver"
-            },
-            {
-               "name": "cmswebservices",
-               "contextPath": "/cmswebservices"
-            },
-            {
-               "name": "permissionswebservices",
-               "contextPath": "/permissionswebservices"
-            },
-            {
-               "name": "previewwebservices",
-               "contextPath": "/previewwebservices"
-            },
             {
                "name":"mediaweb",
                "contextPath":"/medias"
