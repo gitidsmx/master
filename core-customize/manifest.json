@@ -279,8 +279,8 @@
          ],
          "webapps":[
            {
-               "name": "yacceleratorstorefront,
-               "contextPath": "/yacceleratorstorefront
+               "name": "yacceleratorstorefront",
+               "contextPath": "/yacceleratorstorefront"
             },
            {
                "name": "smartedit",
