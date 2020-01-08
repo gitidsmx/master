@@ -278,6 +278,42 @@
             },
          ],
          "webapps":[
+           {
+               "name": "yacceleratorstorefront,
+               "contextPath": "/yacceleratorstorefront
+            },
+           {
+               "name": "smartedit",
+               "contextPath": "/smartedit"
+            },
+            {
+               "name": "cmssmartedit",
+               "contextPath": "/cmssmartedit"
+            },
+            {
+               "name": "smarteditwebservices",
+               "contextPath": "/smarteditwebservices"
+            },
+            {
+               "name": "cmssmarteditwebservices",
+               "contextPath": "/cmssmarteditwebservices"
+            },
+           {
+               "name": "oauth2",
+               "contextPath": "/authorizationserver"
+            },
+            {
+               "name": "cmswebservices",
+               "contextPath": "/cmswebservices"
+            },
+            {
+               "name": "permissionswebservices",
+               "contextPath": "/permissionswebservices"
+            },
+            {
+               "name": "previewwebservices",
+               "contextPath": "/previewwebservices"
+            },
             {
                "name":"mediaweb",
                "contextPath":"/medias"
