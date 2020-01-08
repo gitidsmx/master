@@ -297,13 +297,13 @@
       },
       {
          "name":"api",
-         "properties":[
-{
- "key":"storefrontContextRoot",
- "value":""
- },
-         ],
-         "webapps":[
+            "properties": [
+                    {
+                     "key":"storefrontContextRoot",
+                     "value":""
+                     },
+            ],
+        "webapps":[
  "name": "yacceleratorstorefront",
  "contextPath": "/yacceleratorstorefront"
  },
