@@ -290,6 +290,7 @@
             {
                "name": "personalizationsearchsmartedit",
                "contextPath": "/personalizationsearchsmartedit"
+	    },
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
