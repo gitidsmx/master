@@ -67,7 +67,6 @@
       "personalizationpromotionssmartedit",
       "personalizationwebservices",
       "personalizationsearchsmartedit",
-      "ysmarteditmodule",
       "personalizationaddon",
       "oauth2",
       "cmswebservices",
@@ -275,22 +274,6 @@
                "name": "smarteditwebservices",
 	       "contextPath": "/smarteditwebservices"
             },
-	    {
-               "name": "personalizationsmartedit",
-               "contextPath": "/personalizationsmartedit"
-            },
-            {
-               "name": "personalizationpromotionssmartedit",
-               "contextPath": "/personalizationpromotionssmartedit"
-            },
-            {
-               "name": "personalizationwebservices",
-               "contextPath": "/personalizationwebservices"
-            },
-            {
-               "name": "personalizationsearchsmartedit",
-               "contextPath": "/personalizationsearchsmartedit"
-	    },
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
