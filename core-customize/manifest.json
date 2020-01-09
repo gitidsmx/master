@@ -300,6 +300,7 @@
             {
                "name": "yacceleratorstorefront",
                "contextPath": "/yacceleratorstorefront"
+            },
             {
                "name": "smartedit",
                "contextPath": "/smartedit"
