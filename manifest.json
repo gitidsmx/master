@@ -59,6 +59,7 @@
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
       "smarteditaddon",
+      "personalizationaddon",
       "smartedit",
       "cmssmartedit",
       "smarteditwebservices",
@@ -67,6 +68,10 @@
       "cmswebservices",
       "permissionswebservices",
       "previewwebservices",
+      "personalizationsmartedit",
+      "personalizationpromotionssmartedit"
+      "personalizationwebservices"
+      "personalizationsearchsmartedit"
       "mediaweb"
    ],
    "properties":[
@@ -134,6 +139,11 @@
    "storefrontAddons":[
       {
          "addon": "smarteditaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+      },
+      {
+         "addon": "personalizationaddon",
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
@@ -336,6 +346,22 @@
             {
                "name":"mediaweb",
                "contextPath":"/medias"
+            },
+            {
+               "name": "personalizationsmartedit",
+               "contextPath": "/personalizationsmartedit"
+            },
+            {
+               "name": "personalizationpromotionssmartedit",
+               "contextPath": "/personalizationpromotionssmartedit"
+            },
+            {
+               "name": "personalizationwebservices",
+               "contextPath": "/personalizationwebservices"
+            },
+            {
+               "name": "personalizationsearchsmartedit",
+               "contextPath": "/personalizationsearchsmartedit"
             },
             {
                "name":"adaptivesearchwebservices",
