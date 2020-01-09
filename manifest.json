@@ -59,7 +59,6 @@
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
       "smarteditaddon",
-      "personalizationaddon",
       "smartedit",
       "cmssmartedit",
       "smarteditwebservices",
@@ -139,11 +138,6 @@
    "storefrontAddons":[
       {
          "addon": "smarteditaddon",
-         "storefront": "yacceleratorstorefront",
-         "template": "yacceleratorstorefront"
-      },
-      {
-         "addon": "personalizationaddon",
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
