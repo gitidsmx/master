@@ -50,7 +50,7 @@
       "sapcoreconfigurationbackoffice",
       "sapmodelbackoffice",
       "sapcustomerb2bbackoffice",
-      "ysapcpiomsfulfillment",
+      "ysapcpiomsfulfillment",      
       "sapcpiadapter",
       "sapcpicustomerexchange",
       "sapcpicustomerexchangeb2b",
@@ -58,22 +58,18 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
-      "smartedit",
       "smarteditaddon",
+      "smartedit",
       "cmssmartedit",
       "smarteditwebservices",
       "cmssmarteditwebservices",
-      "personalizationsmartedit",
-      "personalizationpromotionssmartedit",
-      "personalizationwebservices",
-      "personalizationsearchsmartedit",
-      "personalizationaddon",
       "oauth2",
       "cmswebservices",
       "permissionswebservices",
       "previewwebservices",
       "mediaweb"
    ],
+
    "properties":[
       {
          "key":"keygen.customer.sap_customer_id.start",
@@ -216,6 +212,10 @@
                "contextPath":"/medias"
             },
             {
+               "name":"smartedit",
+               "contextPath":"/smartedit"
+            },
+            {
                "name":"backoffice",
                "contextPath":"/backoffice"
             },
@@ -283,7 +283,6 @@
       {
          "name":"backgroundProcessing",
          "properties":[
-
          ],
          "webapps":[
             {
@@ -299,7 +298,6 @@
       {
          "name":"api",
          "properties":[
-
          ],
          "webapps":[
             {
@@ -310,7 +308,6 @@
                "name":"adaptivesearchwebservices",
                "contextPath":"/adaptivesearchwebservices"
             }
-            
          ]
       }
    ]
