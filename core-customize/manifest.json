@@ -50,7 +50,7 @@
       "sapcoreconfigurationbackoffice",
       "sapmodelbackoffice",
       "sapcustomerb2bbackoffice",
-      "ysapcpiomsfulfillment",      
+      "ysapcpiomsfulfillment",
       "sapcpiadapter",
       "sapcpicustomerexchange",
       "sapcpicustomerexchangeb2b",
@@ -69,7 +69,6 @@
       "previewwebservices",
       "mediaweb"
    ],
-
    "properties":[
       {
          "key":"keygen.customer.sap_customer_id.start",
@@ -251,6 +250,10 @@
          ],
          "webapps":[
             {
+               "name": "hac",
+               "contextPath": "/hac"
+            },
+            {
                "name":"mediaweb",
                "contextPath":"/medias"
             },
@@ -258,6 +261,45 @@
                "name":"yacceleratorstorefront",
                "contextPath":""
             },
+            {
+               "name":"acceleratorservices",
+               "contextPath":"/acceleratorservices"
+            }
+         ]
+      },
+      {
+         "name":"backgroundProcessing",
+         "properties":[
+
+         ],
+         "webapps":[
+            {
+               "name":"hac",
+               "contextPath":""
+            },
+            {
+               "name":"mediaweb",
+               "contextPath":"/medias"
+            }
+         ]
+      },
+      {
+         "name":"api",
+         "properties":[
+
+         ],
+         "webapps":[
+            {
+               "name": "hac",
+               "contextPath": "/hac"
+            },
+            {
+               "name": "ycommercewebservices",
+               "contextPath": "/rest"
+            },
+            {
+               "name": "yacceleratorstorefront",
+               "contextPath": "/yacceleratorstorefront"
             {
                "name": "smartedit",
                "contextPath": "/smartedit"
@@ -275,32 +317,6 @@
 	       "contextPath": "/smarteditwebservices"
             },
             {
-               "name":"acceleratorservices",
-               "contextPath":"/acceleratorservices"
-            }
-         ]
-      },
-      {
-         "name":"backgroundProcessing",
-         "properties":[
-         ],
-         "webapps":[
-            {
-               "name":"hac",
-               "contextPath":""
-            },
-            {
-               "name":"mediaweb",
-               "contextPath":"/medias"
-            }
-         ]
-      },
-      {
-         "name":"api",
-         "properties":[
-         ],
-         "webapps":[
-            {
                "name":"mediaweb",
                "contextPath":"/medias"
             },
@@ -308,6 +324,7 @@
                "name":"adaptivesearchwebservices",
                "contextPath":"/adaptivesearchwebservices"
             }
+            
          ]
       }
    ]
