@@ -58,7 +58,7 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
-      "smartedit",
+      "smartedit",
       "smarteditaddon",
       "cmssmartedit",
       "smarteditwebservices",
@@ -290,6 +290,7 @@
             {
                "name": "personalizationsearchsmartedit",
                "contextPath": "/personalizationsearchsmartedit"
+	    },
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
