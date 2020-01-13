@@ -58,16 +58,34 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
-      "cmsbackoffice",
+      "smarteditaddon",
+      "smartedit",
       "cmssmartedit",
+      "smarteditwebservices",
       "cmssmarteditwebservices",
+      "oauth2",
       "cmswebservices",
       "permissionswebservices",
       "previewwebservices",
-      "smartedit",
-      "smarteditaddon",
-      "smarteditwebservices",
-      "ysmarteditmodule",
+      "previewpersonalizationweb",
+      "personalizationcmsweb",
+      "personalizationsmartedit",
+      "personalizationpromotionssmartedit",
+      "personalizationsampledataaddon",
+      "personalizationpromotionssampledataaddon",
+      "personalizationyprofile",
+      "personalizationpromotions",
+      "personalizationpromotionsweb",
+      "personalizationservicesbackoffice",
+      "personalizationpromotionsbackoffice",
+      "personalizationcmsbackoffice",
+      "personalizationintegrationbackoffice",
+      "personalizationsearchbackoffice",
+      "personalizationsearchsmartedit",
+      "personalizationsearchweb",
+      "personalizationsearchsamplesaddon",
+      "personalizationyprofilesampledataaddon",
+      "personalizationaddon",
       "mediaweb"
    ],
    "properties":[
@@ -138,12 +156,7 @@
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
-      {
-         "addon": "personalizationaddon",
-         "storefront": "yacceleratorstorefront",
-         "template": "yacceleratorstorefront"
-      },
-      {
+     {
          "addon":"b2bacceleratoraddon",
          "storefront":"yacceleratorstorefront",
          "template":"yacceleratorstorefront"
@@ -306,7 +319,6 @@
            {
               "name": "yacceleratorstorefront",
               "contextPath": "/yacceleratorstorefront"
-           },
            {
                "name": "smartedit",
                "contextPath": "/smartedit"
@@ -338,22 +350,6 @@
            {
               "name": "previewwebservices",
               "contextPath": "/previewwebservices"
-           },
-           {
-              "name": "personalizationsmartedit",
-              "contextPath": "/personalizationsmartedit"
-           },
-           {
-              "name": "personalizationpromotionssmartedit",
-              "contextPath": "/personalizationpromotionssmartedit"
-           },
-           {
-              "name": "personalizationwebservices",
-              "contextPath": "/personalizationwebservices"
-           },
-           {
-              "name": "personalizationsearchsmartedit",
-              "contextPath": "/personalizationsearchsmartedit"
            },
             {
                "name":"mediaweb",
