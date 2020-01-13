@@ -58,19 +58,16 @@
       "sapcpiorderexchangeomsb2b",
       "saporderexchangebackoffice",
       "sapcpiproductexchange",
-      "smarteditaddon",
-      "smartedit",
+      "cmsbackoffice",
       "cmssmartedit",
-      "smarteditwebservices",
       "cmssmarteditwebservices",
-      "oauth2",
       "cmswebservices",
       "permissionswebservices",
       "previewwebservices",
-      "personalizationsmartedit",
-      "personalizationpromotionssmartedit"
-      "personalizationwebservices"
-      "personalizationsearchsmartedit"
+      "smartedit",
+      "smarteditaddon",
+      "smarteditwebservices",
+      "ysmarteditmodule",
       "mediaweb"
    ],
    "properties":[
@@ -138,6 +135,11 @@
    "storefrontAddons":[
       {
          "addon": "smarteditaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+      },
+      {
+         "addon": "personalizationaddon",
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
@@ -253,9 +255,9 @@
             }
          ],
          "webapps":[
-            {
-               "name": "hac",
-               "contextPath": "/hac"
+           {
+              "name": "hac",
+              "contextPath": "/hac"
             },
             {
                "name":"mediaweb",
@@ -293,19 +295,18 @@
 
          ],
          "webapps":[
-            {
-               "name": "hac",
-               "contextPath": "/hac"
-            },
-            {
-               "name": "ycommercewebservices",
-               "contextPath": "/rest"
-            },
-            {
-               "name": "yacceleratorstorefront",
-               "contextPath": "/yacceleratorstorefront"
-            },
-            {
+           {
+              "name": "hac",
+              "contextPath": "/hac"
+           },
+           {
+              "name": "ycommercewebservices",
+              "contextPath": "/rest"
+           },
+           {
+              "name": "yacceleratorstorefront",
+              "contextPath": "/yacceleratorstorefront"
+           {
                "name": "smartedit",
                "contextPath": "/smartedit"
             },
@@ -321,41 +322,41 @@
                "name": "smarteditwebservices",
 	       "contextPath": "/smarteditwebservices"
             },
-            {
-               "name": "oauth2",
-               "contextPath": "/authorizationserver"
-            },
-            {
-               "name": "cmswebservices",
-               "contextPath": "/cmswebservices"
-            },
-            {
-               "name": "permissionswebservices",
-               "contextPath": "/permissionswebservices"
-            },
-            {
-               "name": "previewwebservices",
-               "contextPath": "/previewwebservices"
-            },
+           {
+              "name": "oauth2",
+              "contextPath": "/authorizationserver"
+           },
+           {
+              "name": "cmswebservices",
+              "contextPath": "/cmswebservices"
+           },
+           {
+              "name": "permissionswebservices",
+              "contextPath": "/permissionswebservices"
+           },
+           {
+              "name": "previewwebservices",
+              "contextPath": "/previewwebservices"
+           },
+           {
+              "name": "personalizationsmartedit",
+              "contextPath": "/personalizationsmartedit"
+           },
+           {
+              "name": "personalizationpromotionssmartedit",
+              "contextPath": "/personalizationpromotionssmartedit"
+           },
+           {
+              "name": "personalizationwebservices",
+              "contextPath": "/personalizationwebservices"
+           },
+           {
+              "name": "personalizationsearchsmartedit",
+              "contextPath": "/personalizationsearchsmartedit"
+           },
             {
                "name":"mediaweb",
                "contextPath":"/medias"
-            },
-            {
-               "name": "personalizationsmartedit",
-               "contextPath": "/personalizationsmartedit"
-            },
-            {
-               "name": "personalizationpromotionssmartedit",
-               "contextPath": "/personalizationpromotionssmartedit"
-            },
-            {
-               "name": "personalizationwebservices",
-               "contextPath": "/personalizationwebservices"
-            },
-            {
-               "name": "personalizationsearchsmartedit",
-               "contextPath": "/personalizationsearchsmartedit"
             },
             {
                "name":"adaptivesearchwebservices",
