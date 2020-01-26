@@ -3,6 +3,7 @@
    "useCloudExtensionPack": true,
    "extensions":[
       "ordermanagementaddon",
+      "azurecloudhotfolder",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
       "warehousing",
