@@ -306,6 +306,39 @@
              "key": "cluster.node.groups",
              "value": "integration,yHotfolderCandidate"
             }
+
+{
+                     "key": "cluster.node.groups",
+                     "value": "integration,yHotfolderCandidate"
+                 },
+                 {
+                     "key": "azure.hotfolder.storage.container.hotfolder",
+                     "value": "master/hotfolder"
+                 },
+                 {
+                     "key": "azure.hotfolder.storage.container.match.pattern",
+                     "value": "^((?!ignore).)*$"
+                 },
+                 {
+                     "key": "azure.hotfolder.storage.container.name",
+                     "value": "hybris"
+                 },
+                 {
+                     "key": "azure.hotfolder.storage.polling.fixed.rate",
+                     "value": "30000"
+                 },
+                 {
+                     "key": "azure.hotfolder.storage.delete.remote.files",
+                     "value": "true"
+                 },
+                 {
+                     "key": "cloud.hotfolder.default.mapping.file.name.pattern", 
+                     "value": "^(customer|product|url_media|custom)-\\d+.*" 
+                 },
+                 {
+                     "key": "azure.hotfolder.storage.account.name",
+                     "value": "sqbk92blblxbd28jz05cv72"
+                 }
          ],
          "webapps":[
             {
