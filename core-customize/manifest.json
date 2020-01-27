@@ -6,7 +6,28 @@
 		"yacceleratorstorefront",
 		"backoffice"
 	],
-
+    "useConfig": {
+        "properties": [
+            {
+                "location": "config/local.properties"
+            },
+            {
+                "location": "config/local-dev.properties",
+                "persona": "development"
+            },
+            {
+                "location": "config/local-backoffice.properties",
+                "aspect": "backoffice"
+            }
+        ],
+        "extensions": {
+            "location": "config/localextensions.xml",
+            "exclude": [
+                "custom_2_extension_without_dir",
+                "custom_1_extension_with_dir"
+            ]
+        }
+},
 	"aspects": [{
 			"name": "backoffice",
 			"webapps": [{
