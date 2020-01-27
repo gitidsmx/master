@@ -10,17 +10,5 @@
     <extension name="captchaaddon"/>
     <extension name="acceleratorwebservicesaddon"/>
     <extension name="commerceorgsamplesaddon"/>
-    <extension name="smartedit"/>
-    <extension name="oauth2"/>
-    <extension name="previewwebservices"/>
-    <extension name="mediaweb"/>
-    <extension name="cmswebservices"/>
-    <extension name="smarteditwebservices"/>
-    <extension name="cmssmarteditwebservices"/>
-    <extension name="permissionswebservices"/>
-    <extension name="smarteditaddon"/>
-    <extension name="cmssmartedit"/>
-    <extension name="cmsbackoffice"/>
-    <extension name="cmsoccaddon"/>    
   </extensions>
 </hybrisconfig>
