@@ -4,7 +4,15 @@
 		"modeltacceleratorservices",
 		"electronicsstore",
 		"yacceleratorstorefront",
-		"backoffice"
+		"backoffice",
+                "smartedit",
+                "cmssmartedit",
+                "smarteditwebservices",
+                "cmssmarteditwebservices",
+                "cmswebservices",
+                "permissionswebservices",
+                "previewwebservices",
+                "mediaweb"
 	],
     "useConfig": {
         "extensions": {
@@ -15,6 +23,13 @@
             ]
         }
 },
+   "storefrontAddons":[
+     {
+         "addon":"b2bacceleratoraddon",
+         "storefront":"lalastore",
+         "template":"yacceleratorstorefront"
+      }
+   ],
 	"aspects": [{
 			"name": "backoffice",
 			"webapps": [{
@@ -81,5 +96,42 @@
 				}
 			]
 		}
+ {
+         "name":"api",
+         "properties":[
+{
+ "key":"storefrontContextRoot",
+ "value":"lalastore"
+ },
+         ],
+         "webapps":[
+           {
+              "name": "hac",
+              "contextPath": "/hac"
+           },
+           {
+              "name": "ycommercewebservices",
+              "contextPath": "/rest"
+           },
+{
+
+ "name": "lalastore",
+ "contextPath": "/lalastore"
+ },
+           {
+              "name": "yacceleratorstorefront",
+              "contextPath": "/yacceleratorstorefront"
+	   },
+            {
+               "name":"mediaweb",
+               "contextPath":"/medias"
+            },
+            {
+               "name":"adaptivesearchwebservices",
+               "contextPath":"/adaptivesearchwebservices"
+            }
+            
+         ]
+      }
 	]
 }
