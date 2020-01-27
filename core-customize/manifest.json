@@ -16,13 +16,13 @@
             ]
         }
 },
-"storefrontAddons": [
-{
-"addon": "lalastore",
-"storefront": "lalastore",
-"template": "yacceleratorestorefront"
-}
-],
+   "storefrontAddons":[
+      {
+        "addon": "lalastore",
+        "storefront": "lalastore",
+        "template": "yacceleratorestorefront"
+      }
+   ],
 	"aspects": [{
 			"name": "backoffice",
 			"webapps": [{
@@ -72,7 +72,7 @@
 				},
                                 {
                                         "name": "lalastore",
-                                        "contextPath": "",
+                                        "contextPath": "/lalastore",
                                 }
 				{
 					"name": "acceleratorservices",
