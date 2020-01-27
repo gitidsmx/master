@@ -7,19 +7,6 @@
 		"backoffice"
 	],
     "useConfig": {
-        "properties": [
-            {
-                "location": "config/local.properties"
-            },
-            {
-                "location": "config/local-dev.properties",
-                "persona": "development"
-            },
-            {
-                "location": "config/local-backoffice.properties",
-                "aspect": "backoffice"
-            }
-        ],
         "extensions": {
             "location": "config/localextensions.xml",
             "exclude": [
