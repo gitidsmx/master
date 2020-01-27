@@ -22,7 +22,7 @@
 "storefront": "lalastore",
 "template": "yacceleratorestorefront"
 }
-]
+],
 	"aspects": [{
 			"name": "backoffice",
 			"webapps": [{
