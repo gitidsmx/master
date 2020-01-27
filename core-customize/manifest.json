@@ -71,10 +71,6 @@
 					"contextPath": ""
 				},
 				{
-					"name": "lalastore",
-					"contextPath": ""
-				},				    
-				{
 					"name": "acceleratorservices",
 					"contextPath": "/acceleratorservices"
 				}
@@ -106,10 +102,6 @@
               "name": "ycommercewebservices",
               "contextPath": "/rest"
            },
-{
- "name": "lalastore",
- "contextPath": "/lalastore"
- },
            {
               "name": "yacceleratorstorefront",
               "contextPath": "/yacceleratorstorefront"
