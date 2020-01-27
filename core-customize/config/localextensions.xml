@@ -6,6 +6,7 @@
     <extension name="modeltacceleratorservices"/>
     <extension name="electronicsstore"/>
     <extension name="yacceleratorstorefront"/>
+    <extension name="lalastore"/>
     <extension name="b2bacceleratoraddon"/>
     <extension name="backoffice"/>
     <extension name="captchaaddon"/>
