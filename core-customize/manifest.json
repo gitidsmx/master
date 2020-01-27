@@ -21,11 +21,6 @@
             "addon": "customerticketingaddon",
             "storefront": "mycustomstorefront",
             "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "smarteditaddon",
-            "storefront": "mycustomstorefront",
-            "template": "yacceleratorstorefront"
         }
     ],
      "aspects": [
