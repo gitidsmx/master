@@ -4,6 +4,7 @@
 		"modeltacceleratorservices",
 		"electronicsstore",
 		"yacceleratorstorefront",
+                "lalastore",
 		"backoffice"
 	],
     "useConfig": {
@@ -15,6 +16,13 @@
             ]
         }
 },
+"storefrontAddons": [
+{
+"addon": "lalastore",
+"storefront": "lalastore",
+"template": "yacceleratorestorefront"
+}
+]
 	"aspects": [{
 			"name": "backoffice",
 			"webapps": [{
@@ -62,6 +70,10 @@
 					"name": "yacceleratorstorefront",
 					"contextPath": ""
 				},
+                                {
+                                        "name": "lalastore",
+                                        "contextPath": "",
+                                }
 				{
 					"name": "acceleratorservices",
 					"contextPath": "/acceleratorservices"
