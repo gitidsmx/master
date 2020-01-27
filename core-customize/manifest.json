@@ -4,15 +4,8 @@
 		"modeltacceleratorservices",
 		"electronicsstore",
 		"yacceleratorstorefront",
-		"backoffice",
-                "smartedit",
-                "cmssmartedit",
-                "smarteditwebservices",
-                "cmssmarteditwebservices",
-                "cmswebservices",
-                "permissionswebservices",
-                "previewwebservices",
-                "mediaweb"
+		 "b2bacceleratoraddon",
+		"backoffice"
 	],
     "useConfig": {
         "extensions": {
@@ -22,7 +15,7 @@
                 "custom_1_extension_with_dir"
             ]
         }
-},
+},	
    "storefrontAddons":[
      {
          "addon":"b2bacceleratoraddon",
@@ -78,6 +71,10 @@
 					"contextPath": ""
 				},
 				{
+					"name": "lalastore",
+					"contextPath": ""
+				},				    
+				{
 					"name": "acceleratorservices",
 					"contextPath": "/acceleratorservices"
 				}
@@ -99,10 +96,6 @@
  {
          "name":"api",
          "properties":[
-{
- "key":"storefrontContextRoot",
- "value":"lalastore"
- },
          ],
          "webapps":[
            {
@@ -114,7 +107,6 @@
               "contextPath": "/rest"
            },
 {
-
  "name": "lalastore",
  "contextPath": "/lalastore"
  },
