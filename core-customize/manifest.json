@@ -4,12 +4,14 @@
       "ordermanagementaddon",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
+      "b2bordermanagementwebservices",
       "warehousing",
       "warehousingbackoffice",
       "warehousingwebservices",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
+      "b2bcommercebackoffice",
       "commerceservicesbackoffice",
       "yacceleratorcockpits",
       "yacceleratorinitialdata",
@@ -24,6 +26,7 @@
       "cmsfacades",
       "solrserver",
       "acceleratorwebservicesaddon",
+      "b2bacceleratoraddon",
       "commerceorgaddon",
       "commerceorgsamplesaddon",
       "assistedservicestorefront",
@@ -87,22 +90,8 @@
       "personalizationsearchsamplesaddon",
       "personalizationyprofilesampledataaddon",
       "personalizationaddon",
-      "multicountrysampledataaddon",
-      "b2bacceleratoraddon",
-      "b2bacceleratorfacades",
-      "b2bacceleratorservices",
-      "b2boccaddon",
       "mediaweb"
    ],
-    "useConfig": {
-        "extensions": {
-            "location": "config/localextensions.xml",
-            "exclude": [
-                "custom_2_extension_without_dir",
-                "custom_1_extension_with_dir"
-            ]
-        }
-},
    "properties":[
       {
          "key":"keygen.customer.sap_customer_id.start",
