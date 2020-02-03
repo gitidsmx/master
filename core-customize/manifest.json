@@ -157,11 +157,6 @@
       }
    ],
    "storefrontAddons":[
-      {
-         "addon": "smarteditaddon",
-         "storefront": "yacceleratorstorefront",
-         "template": "yacceleratorstorefront"
-      },
 {
 "addon": "smartedditaddon",
 "storefront": "lalab2b",
