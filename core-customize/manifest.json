@@ -5,6 +5,7 @@
       "orderselfserviceaddon",
       "ordermanagementwebservices",
       "b2bordermanagementwebservices",
+      "lalab2b",
       "warehousing",
       "warehousingbackoffice",
       "warehousingwebservices",
@@ -93,6 +94,15 @@
       "sapcpiproductexchange",
       "mediaweb"
    ],
+    "useConfig": {
+        "extensions": {
+            "location": "config/localextensions.xml",
+            "exclude": [
+                "custom_2_extension_without_dir",
+                "custom_1_extension_with_dir"
+            ]
+        }
+},	
    "properties":[
       {
          "key":"keygen.customer.sap_customer_id.start",
