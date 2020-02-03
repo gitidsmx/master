@@ -2,6 +2,7 @@
    "commerceSuiteVersion":"1905",
    "extensions":[
       "ordermanagementaddon",
+      "lalab2b",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
       "b2bordermanagementwebservices",
@@ -161,6 +162,11 @@
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
+{
+"addon": "smartedditaddon",
+"storefront": "lalab2b",
+"template": "yacceleratorestorefront"
+},	   
       {
          "addon": "personalizationaddon",
          "storefront": "yacceleratorstorefront",
@@ -290,6 +296,10 @@
                "name":"yacceleratorstorefront",
                "contextPath":""
             },
+{
+"name": "lalab2b",
+"contextPath": ""
+},
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
