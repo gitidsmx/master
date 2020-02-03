@@ -2,18 +2,60 @@
    "commerceSuiteVersion":"1905",
    "useCloudExtensionPack": true,
    "extensions":[
-      "b2bordermanagementwebservices",
-      "b2bcommercebackoffice",
-      "b2bacceleratoraddon",
+      "ordermanagementaddon",
+      "azurecloudhotfolder",
+      "orderselfserviceaddon",
+      "ordermanagementwebservices",
+      "warehousing",
+      "warehousingbackoffice",
+      "warehousingwebservices",
+      "adaptivesearchsolr",
+      "adaptivesearchbackoffice",
+      "adaptivesearchsamplesaddon",
+      "commerceservicesbackoffice",
+      "yacceleratorcockpits",
+      "yacceleratorinitialdata",
+      "yacceleratorordermanagement",
       "yacceleratorstorefront",
+      "yaddon",
       "ycommercewebservices",
+      "cmsoccaddon",
+      "spartacussampledataaddon",
       "powertoolsstore",
       "cms2",
       "cms2lib",
       "cmsbackoffice",
+      "cmsfacades",
+      "solrserver",
+      "acceleratorwebservicesaddon",
+      "commerceorgaddon",
+      "commerceorgsamplesaddon",
+      "assistedservicestorefront",
+      "assistedservicewebservices",
+      "customerticketingaddon",
+      "customersupportbackoffice",
+      "ticketsystembackoffice",
+      "consignmenttrackingbackoffice",
+      "rulebuilderbackoffice",
+      "couponbackoffice",
+      "droolsruleengineservices",
+      "couponfacades",
+      "promotionenginesamplesaddon",
+      "consignmenttrackingaddon",
+      "pcmbackofficesamplesaddon",
+      "consignmenttrackingoccaddon",
+      "apiregistryservices",
+      "apiregistrybackoffice",
+      "odata2webservices",
+      "outboundsync",
+      "outboundsyncbackoffice",
       "integrationmonitoringbackoffice",
       "integrationbackoffice",
+      "sapcoreaddon",
+      "sapcoreconfigurationbackoffice",
+      "sapmodelbackoffice",
       "sapcustomerb2bbackoffice",
+      "ysapcpiomsfulfillment",
       "sapcpiadapter",
       "sapcpicustomerexchange",
       "sapcpicustomerexchangeb2b",
@@ -30,6 +72,30 @@
       "cmswebservices",
       "permissionswebservices",
       "previewwebservices",
+      "previewpersonalizationweb",
+      "personalizationcmsweb",
+      "personalizationsmartedit",
+      "personalizationpromotionssmartedit",
+      "personalizationsampledataaddon",
+      "personalizationpromotionssampledataaddon",
+      "personalizationyprofile",
+      "personalizationpromotions",
+      "personalizationpromotionsweb",
+      "personalizationservicesbackoffice",
+      "personalizationpromotionsbackoffice",
+      "personalizationcmsbackoffice",
+      "personalizationintegrationbackoffice",
+      "personalizationsearchbackoffice",
+      "personalizationsearchsmartedit",
+      "personalizationsearchweb",
+      "personalizationsearchsamplesaddon",
+      "personalizationyprofilesampledataaddon",
+      "personalizationaddon",
+      "multicountrysampledataaddon",
+      "b2bacceleratoraddon",
+      "b2bacceleratorfacades",
+      "b2bacceleratorservices",
+      "b2boccaddon",
       "mediaweb"
    ],
    "properties":[
@@ -236,9 +302,40 @@
          ]
       },
       {
-         "name":"backgroundProcessing",
-         "properties":[
-
+          "name": "backgroundProcessing",
+          "properties": [
+            {
+             "key": "cluster.node.groups",
+             "value": "integration,yHotfolderCandidate"
+            },
+            {
+             "key": "azure.hotfolder.storage.container.hotfolder",
+             "value": "master/hotfolder"
+            },
+            {
+             "key": "azure.hotfolder.storage.container.match.pattern",
+             "value": "^((?!ignore).)*$"
+            },
+            {
+             "key": "azure.hotfolder.storage.container.name",
+             "value": "hybris"
+            },
+            {
+             "key": "azure.hotfolder.storage.polling.fixed.rate",
+             "value": "30000"
+            },
+            {
+             "key": "azure.hotfolder.storage.delete.remote.files",
+             "value": "true"
+            },
+            {
+             "key": "cloud.hotfolder.default.mapping.file.name.pattern", 
+             "value": "^(customer|product|url_media|custom)-\\d+.*" 
+            },
+            {
+             "key": "azure.hotfolder.storage.account.name",
+             "value": "sqbk92blblxbd28jz05cv72"
+            }
          ],
          "webapps":[
             {
