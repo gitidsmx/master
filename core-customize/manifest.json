@@ -2,6 +2,7 @@
    "commerceSuiteVersion":"1905",
    "extensions":[
       "ordermanagementaddon",
+      "lalab2b",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
       "b2bordermanagementwebservices",
@@ -54,14 +55,6 @@
       "sapcoreconfigurationbackoffice",
       "sapmodelbackoffice",
       "sapcustomerb2bbackoffice",
-      "ysapcpiomsfulfillment",
-      "sapcpiadapter",
-      "sapcpicustomerexchange",
-      "sapcpicustomerexchangeb2b",
-      "sapcpiorderexchangeoms",
-      "sapcpiorderexchangeomsb2b",
-      "saporderexchangebackoffice",
-      "sapcpiproductexchange",
       "smarteditaddon",
       "smartedit",
       "cmssmartedit",
@@ -90,6 +83,15 @@
       "personalizationsearchsamplesaddon",
       "personalizationyprofilesampledataaddon",
       "personalizationaddon",
+      "sapcpiadapter",
+      "sapcpicustomerexchange",
+      "sapcpicustomerexchangeb2b",
+      "saporderexchange",
+      "saporderexchangeb2b",
+      "sapcpiorderexchange",
+      "sapcpiorderexchangeb2b",
+      "saporderexchangebackoffice",
+      "sapcpiproductexchange",
       "mediaweb"
    ],
    "properties":[
@@ -160,6 +162,11 @@
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
       },
+{
+"addon": "smartedditaddon",
+"storefront": "lalab2b",
+"template": "yacceleratorestorefront"
+},	   
       {
          "addon": "personalizationaddon",
          "storefront": "yacceleratorstorefront",
@@ -289,6 +296,10 @@
                "name":"yacceleratorstorefront",
                "contextPath":""
             },
+{
+"name": "lalab2b",
+"contextPath": ""
+},
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
