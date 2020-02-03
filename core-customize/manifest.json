@@ -164,66 +164,11 @@
 },	   
       {
          "addon": "personalizationaddon",
-         "storefront": "yacceleratorstorefront",
+         "storefront": "lalab2b",
          "template": "yacceleratorstorefront"
       },
      {
          "addon":"b2bacceleratoraddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"commerceorgaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"commerceorgsamplesaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"customerticketingaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"promotionenginesamplesaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"adaptivesearchsamplesaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"pcmbackofficesamplesaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"ordermanagementaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"orderselfserviceaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"consignmenttrackingaddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"assistedservicestorefront",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
-      },
-      {
-         "addon":"sapcoreaddon",
          "storefront":"yacceleratorstorefront",
          "template":"yacceleratorstorefront"
       }
@@ -332,8 +277,8 @@
               "contextPath": "/rest"
            },
            {
-              "name": "yacceleratorstorefront",
-              "contextPath": "/yacceleratorstorefront"
+              "name": "lalab2b",
+              "contextPath": "/lalab2b"
 		   },
            {
                "name": "smartedit",
