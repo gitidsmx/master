@@ -166,11 +166,6 @@
          "addon": "personalizationaddon",
          "storefront": "lalab2b",
          "template": "yacceleratorstorefront"
-      },
-     {
-         "addon":"b2bacceleratoraddon",
-         "storefront":"yacceleratorstorefront",
-         "template":"yacceleratorstorefront"
       }
    ],
    "aspects":[
@@ -236,10 +231,6 @@
                "name":"yacceleratorstorefront",
                "contextPath":""
             },
-{
-"name": "lalab2b",
-"contextPath": ""
-},
             {
                "name":"acceleratorservices",
                "contextPath":"/acceleratorservices"
