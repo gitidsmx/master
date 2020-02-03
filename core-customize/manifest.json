@@ -1,24 +1,21 @@
 {
    "commerceSuiteVersion":"1905",
+   "useCloudExtensionPack": true,
    "extensions":[
       "ordermanagementaddon",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
       "b2bordermanagementwebservices",
-      "lalab2b",
-      "warehousing",
-      "warehousingbackoffice",
-      "warehousingwebservices",
+      "b2bcommercebackoffice",
+      "b2bacceleratoraddon",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
-      "b2bcommercebackoffice",
       "commerceservicesbackoffice",
       "yacceleratorcockpits",
       "yacceleratorinitialdata",
       "yacceleratorordermanagement",
       "yacceleratorstorefront",
-      "yaddon",
       "ycommercewebservices",
       "powertoolsstore",
       "cms2",
@@ -27,7 +24,6 @@
       "cmsfacades",
       "solrserver",
       "acceleratorwebservicesaddon",
-      "b2bacceleratoraddon",
       "commerceorgaddon",
       "commerceorgsamplesaddon",
       "assistedservicestorefront",
@@ -35,15 +31,12 @@
       "customerticketingaddon",
       "customersupportbackoffice",
       "ticketsystembackoffice",
-      "consignmenttrackingbackoffice",
       "rulebuilderbackoffice",
       "couponbackoffice",
       "droolsruleengineservices",
       "couponfacades",
       "promotionenginesamplesaddon",
-      "consignmenttrackingaddon",
       "pcmbackofficesamplesaddon",
-      "consignmenttrackingoccaddon",
       "apiregistryservices",
       "apiregistrybackoffice",
       "odata2webservices",
@@ -55,6 +48,14 @@
       "sapcoreconfigurationbackoffice",
       "sapmodelbackoffice",
       "sapcustomerb2bbackoffice",
+      "ysapcpiomsfulfillment",
+      "sapcpiadapter",
+      "sapcpicustomerexchange",
+      "sapcpicustomerexchangeb2b",
+      "sapcpiorderexchangeoms",
+      "sapcpiorderexchangeomsb2b",
+      "saporderexchangebackoffice",
+      "sapcpiproductexchange",
       "smarteditaddon",
       "smartedit",
       "cmssmartedit",
@@ -83,26 +84,8 @@
       "personalizationsearchsamplesaddon",
       "personalizationyprofilesampledataaddon",
       "personalizationaddon",
-      "sapcpiadapter",
-      "sapcpicustomerexchange",
-      "sapcpicustomerexchangeb2b",
-      "saporderexchange",
-      "saporderexchangeb2b",
-      "sapcpiorderexchange",
-      "sapcpiorderexchangeb2b",
-      "saporderexchangebackoffice",
-      "sapcpiproductexchange",
       "mediaweb"
    ],
-    "useConfig": {
-        "extensions": {
-            "location": "config/localextensions.xml",
-            "exclude": [
-                "custom_2_extension_without_dir",
-                "custom_1_extension_with_dir"
-            ]
-        }
-},	
    "properties":[
       {
          "key":"keygen.customer.sap_customer_id.start",
@@ -166,15 +149,75 @@
       }
    ],
    "storefrontAddons":[
-{
-"addon": "smartedditaddon",
-"storefront": "lalab2b",
-"template": "yacceleratorestorefront"
-},	   
+      {
+         "addon": "smarteditaddon",
+         "storefront": "yacceleratorstorefront",
+         "template": "yacceleratorstorefront"
+      },
       {
          "addon": "personalizationaddon",
-         "storefront": "lalab2b",
+         "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
+      },
+     {
+         "addon":"b2bacceleratoraddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"commerceorgaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"commerceorgsamplesaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"customerticketingaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"promotionenginesamplesaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"adaptivesearchsamplesaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"pcmbackofficesamplesaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"ordermanagementaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"orderselfserviceaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"consignmenttrackingaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"assistedservicestorefront",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
+      },
+      {
+         "addon":"sapcoreaddon",
+         "storefront":"yacceleratorstorefront",
+         "template":"yacceleratorstorefront"
       }
    ],
    "aspects":[
@@ -277,8 +320,8 @@
               "contextPath": "/rest"
            },
            {
-              "name": "lalab2b",
-              "contextPath": "/lalab2b"
+              "name": "yacceleratorstorefront",
+              "contextPath": "/yacceleratorstorefront"
 		   },
            {
                "name": "smartedit",
