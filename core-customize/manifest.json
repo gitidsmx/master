@@ -92,6 +92,8 @@
       "b2bacceleratorfacades",
       "b2bacceleratorservices",
       "b2boccaddon",
+      "b2bordermanagementwebservices",
+      "b2bcommercebackoffice",	   
       "mediaweb"
    ],
    "properties":[
